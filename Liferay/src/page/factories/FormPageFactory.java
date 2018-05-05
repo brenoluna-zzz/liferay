@@ -1,5 +1,6 @@
 package page.factories;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -42,5 +43,12 @@ public class FormPageFactory {
 	
 	public void clickSubmitBtn() {
 		submitBtn.click();
+	}
+	
+	public boolean hasErrorMsg(WebElement element) {
+		WebElement errorMsg = element.findElement(By.xpath("ancestor::div[constains(@class,'input-group')]/following-sibling::div[contains(text(), 'This field is required.')]"));
+		
+		if(errorMsg == null) return false;
+		return true;
 	}
 }
