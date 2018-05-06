@@ -1,8 +1,8 @@
 Feature: Form submittion
 
   Scenario: Successful form submission
-    Given User is on Liferay form
-    When User fills all fields
-    And User submits the form
-    Then Form is submitted
-    And User is redirected to success page
+    Given User is on Liferay form page
+    When User fills all fields with valid values
+    And User clicks the submit button
+    Then User is redirected to success page
+    And Browser is closed
