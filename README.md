@@ -1,4 +1,4 @@
-# Recrutamento Liferay - Breno Luna
+# Liferay
 
 Implementação de casos de teste utilizando Selenium WebDrive, Cucumber e JUnit.
 
