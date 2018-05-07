@@ -25,13 +25,13 @@ Os testes fazem uso do navegador Google Chrome. Antes da execução, realizar um
 
 Com o projeto importado no workspace do Eclipse, executar a classe Liferay.src.tests.TestRun como teste JUnit.
 
-## Built With
+## Criado com
 
-* [Cucumber](https://cucumber.io/) - Behavior-Driven Development Framework
-* [Eclipse](https://www.eclipse.org/) - Development IDE
-* [JUnit](https://junit.org/junit5/) - Testing Framework
-* [Selenium](https://www.seleniumhq.org/) - Test Automation Framework
+* [Cucumber](https://cucumber.io/) - _Framework_ de Desenvolvimento Baseando em Comportamento (BDD)
+* [Eclipse](https://www.eclipse.org/) - IDE de Desenvolvimento
+* [JUnit](https://junit.org/junit5/) - _Framework_ de Controle de Testes
+* [Selenium](https://www.seleniumhq.org/) - _Framework_ de Automação de Testes
 
-## Author
+## Autor
 
 * **Breno Luna** - [GitHub](https://github.com/brenoluna)
