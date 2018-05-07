@@ -28,7 +28,7 @@ Com o projeto importado no workspace do Eclipse, executar a classe Liferay.src.t
 ## Criado com
 
 * [Cucumber](https://cucumber.io/) - _Framework_ de Desenvolvimento Baseando em Comportamento (BDD)
-* [Eclipse](https://www.eclipse.org/) - IDE de Desenvolvimento
+* [Eclipse](https://www.eclipse.org/) - Ambiente de Desenvolvimento
 * [JUnit](https://junit.org/junit5/) - _Framework_ de Controle de Testes
 * [Selenium](https://www.seleniumhq.org/) - _Framework_ de Automação de Testes
 
