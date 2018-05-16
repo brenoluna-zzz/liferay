@@ -1,4 +1,4 @@
-Feature: Form submittion
+Feature: Form submission
 
   Scenario: Successful form submission
     Given User is on Liferay form page
