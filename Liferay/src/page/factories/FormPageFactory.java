@@ -26,7 +26,7 @@ public class FormPageFactory {
 	@FindBy(xpath = "//button[@type='submit']")
 	WebElement submitBtn;
 
-	// Constructor
+	// Page Factory Constructor
 	public FormPageFactory(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this); // Initializes the WebElements in this class
